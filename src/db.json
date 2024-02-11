@@ -1,0 +1,38 @@
+[
+    {
+        "image": "tsirani.jpg",
+        "name": "Tsirani Garden Restaurant",
+        "description": "3rd Street, Arinj, Kotayk, Yerevan 2210 Armenia",
+        "page": "https://www.instagram.com/tsirani_restaurant/",
+        "priceCategory": "6000 AMD",
+        "rating": 5,
+        "id": 1
+    },
+    {
+        "image": "yasaman.jpg",
+        "name": "Yasaman",
+        "description": "Yekmalyan str. 111, Yerevan 0002 Armenia",
+        "page": "https://www.yasaman.am/hy/",
+        "priceCategory": "8000 AMD",
+        "rating": 5,
+        "id": 2
+    },
+    {
+        "image": "kchuch.jpg",
+        "name": "Kchuch Restaurant",
+        "description": "Miasnikyan St., 37/3, Dilijan Armenia",
+        "page": "https://www.instagram.com/kchuchdilijan/",
+        "priceCategory": "4000 AMD",
+        "rating": 5,
+        "id": 3
+    },
+    {
+        "image": "sherep.jpg",
+        "name": "Sherep Restaurant",
+        "description": "Amiryan str. 1, Yerevan 0010 Armenia",
+        "page": "https://www.yeremyanprojects.com/en/restaurants/sherep",
+        "priceCategory": "7000 AMD",
+        "rating": 5,
+        "id": 4
+    }
+]

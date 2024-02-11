@@ -1,0 +1,122 @@
+#restaurantsMainContainer{
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#restaurantsMainContainer a{
+    text-decoration: none;
+    color: #5e063e;
+}
+
+.restaurantItem{
+    display: flex;
+    flex-direction: row;
+}
+
+.restPic{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid yellow;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.starPic{
+    height: 40px;
+    width: 190px;
+    margin: 10px;
+}
+
+.nameAndRateContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ratingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstPart{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.secondPart{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.rateSelectContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rateSelectContainer select{
+    height: 30px;
+    width: 100px;
+    margin: 15px;
+    border: 2px solid yellow;
+    outline: none;
+    border-radius: 6px;
+}
+
+#submitBtn{
+    height: 40px;
+    width: 150px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: yellow;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.restNameDiv{
+  position: relative;
+  display: inline-block;
+}
+
+.show{
+    visibility: hidden;
+  width: 120px;
+  background-color: #5e063e;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 8px 8px 8px 0px;
+  padding: 5px 0;
+  margin-left: 10px;
+  margin-top: -15px;
+  font-size: 12px;
+  position: absolute;
+  z-index: 1;
+}
+
+.restNameDiv:hover .show{
+    visibility: visible;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greetings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    margin-left: 2%;
+}
